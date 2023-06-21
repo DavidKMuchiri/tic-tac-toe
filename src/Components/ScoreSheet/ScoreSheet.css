@@ -1,0 +1,27 @@
+.scoreSheet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* width: 190px; */
+}
+.scoreSheet div{
+    text-align: center;
+}
+.scoreSheet .computerScore{
+    border-left: 2px solid black;
+}
+.scoreSheet div p{
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(47, 255, 47); */
+    padding: 20px 10px;
+    margin: 0;
+    /* font-weight: 600; */
+}
+.scoreSheet div h2{
+    margin: 0px 10px;
+    font-size: 100%;
+    border-bottom: 2px solid black;
+}
